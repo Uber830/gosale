@@ -1,0 +1,24 @@
+<resources>
+    //Nombre de la aplicacion
+    <string name="app_name">Go Sale</string>
+
+    //acciones para la vista login
+    <string name="hint_Email">Correo Electronico</string>
+    <string name="hint_Password">Contraseña</string>
+    <string name="button_Ingresar">Ingresar</string>
+    <string name="text_RecuperarContraseña">Olvidaste la Contraseña</string>
+
+    //panel principal de acciones
+    <string name="txtProductos">Productos</string>
+    <string name="txtClientes">Clientes</string>
+    <string name="txtVisitas">Visitas</string>
+    <string name="txtÓrdenes">Órdenes</string>
+    <string name="txtRecaudos">Recaudos</string>
+    <string name="txtDevoluciones">Devoluciones</string>
+    <string name="txtEstadisticas">Estadisticas</string>
+    //boton de salir
+    <string name="txtBuscar">Buscar Producto</string>
+
+    //opciones de salir de la vista rapido por default
+
+</resources>
