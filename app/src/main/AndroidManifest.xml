@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".ClientesLocalizacionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ClientesInformacionDescripcionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ClientesInformacionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ClientesActivity"
+            android:exported="true" />
+        <activity
             android:name=".VisitaActivity3"
             android:exported="true" />
         <activity

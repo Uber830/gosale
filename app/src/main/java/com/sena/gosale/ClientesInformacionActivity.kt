@@ -3,9 +3,9 @@ package com.sena.gosale
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class VisitaActivity2 : AppCompatActivity() {
+class ClientesInformacionActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_visita2)
+        setContentView(R.layout.activity_clientes_informacion)
     }
 }

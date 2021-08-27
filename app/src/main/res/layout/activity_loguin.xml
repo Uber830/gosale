@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".loguinActivity"
-    android:background="@color/azulgrisáceo" >
+    android:background="@color/white" >
 
     <ImageView
         android:id="@+id/imageView2"
@@ -28,7 +28,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="60dp"
         android:layout_marginEnd="32dp"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="@color/black"
         android:ems="10"
         android:hint="@string/hint_Email"
         android:inputType="textPersonName|textEmailSubject"
@@ -45,7 +45,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="@color/black"
         android:ems="10"
         android:hint="@string/hint_Password"
         android:inputType="textPersonName|textPassword"
@@ -75,11 +75,8 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="50dp"
         android:text="@string/text_RecuperarContraseña"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="18dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_Ingresar" />
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
