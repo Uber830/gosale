@@ -1,9 +1,241 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ClientesInformacionActivity">
+    tools:context=".ClientesInformacionActivity"
+    android:background="@color/white"
+    android:orientation="vertical" >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:text="Go sale"
+        android:textSize="15sp"
+        style="@style/text_inicio_vista"
+        android:textAlignment="viewEnd"/>
+    <TextView
+        android:drawableStart="@drawable/vector_before"
+        style="@style/text_inicio_vista"
+        android:text="Clientes"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_margin="12dp"
+        android:background="@color/azulgrisáceo">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textSize="16sp"
+            android:text="NIT" />
+
+        <TextView
+            android:id="@+id/textNit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:text="0123456789"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/textNit"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:text="PEDRO PASCASIO MARTINEZ"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:background="@color/azulgrisáceo"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="@color/azulgrisáceo">
+
+        <EditText
+            android:drawablePadding="12dp"
+            android:id="@+id/TextPhoneMovil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:backgroundTint="@color/black"
+            android:drawableStart="@drawable/vector_smartphone"
+            android:ems="10"
+            android:hint="@string/TextPhoneMovil"
+            android:inputType="phone"
+            android:textSize="18sp" />
+
+        <EditText
+            android:drawablePadding="12dp"
+            android:id="@+id/TextPhoneFijo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/TextPhoneMovil"
+            android:drawableStart="@drawable/vector_phone"
+            android:backgroundTint="@color/black"
+            android:hint="7654123"
+            android:ems="10"
+            android:textSize="18sp"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/TextPostalAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TextPhoneFijo"
+            android:layout_marginTop="0dp"
+            android:backgroundTint="@color/black"
+            android:drawableStart="@drawable/vector_house"
+            android:drawablePadding="12dp"
+            android:ems="12"
+            android:hint="Calle 00 #00-01"
+            android:inputType="textPostalAddress"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TextPhoneFijo"
+            android:drawablePadding="12dp"
+            android:drawableStart="@drawable/vector_person_circle"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentEnd="true"
+            android:hint="Bogotá"
+            android:textSize="30sp" />
+
+        <EditText
+            android:drawablePadding="12dp"
+            android:id="@+id/TextEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:backgroundTint="@color/black"
+            android:drawableStart="@drawable/vector_email"
+            android:layout_below="@id/textCity"
+            android:ems="25"
+            android:hint="Correoelectr@email.com"
+            android:textSize="18sp"
+            android:inputType="textEmailAddress" />
+    </RelativeLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@drawable/button_rounded_border">
+
+        <Button
+            android:id="@+id/buttonSaldoTot"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background=""
+            android:text="$1'234.546"
+            android:textColor="@color/ForestGreen"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonSaldoVenc"
+            android:layout_width="170dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:background=""
+            android:textSize="20sp"
+            android:text="$1'234.546" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonSaldoTot"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="-9dp"
+            android:text="Saldo Total"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonSaldoVenc"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-9dp"
+            android:layout_marginEnd="45dp"
+            android:text="Saldo Vencido"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_margin="12dp"
+        android:background="@drawable/button_rounded">
+
+        <ImageView
+            android:id="@+id/buttonShopping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_social_white"
+            app:srcCompat="@drawable/vector_shopping_cart" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="73dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toStartOf="@+id/imageView7"
+            android:background="@drawable/button_social_white"
+            app:srcCompat="@drawable/vector_event_" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="73dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toStartOf="@+id/buttonShopping"
+            android:background="@drawable/button_social_white"
+            app:srcCompat="@drawable/vector_room" />
+
+
+    </RelativeLayout>
+</LinearLayout>

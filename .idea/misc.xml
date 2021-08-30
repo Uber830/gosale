@@ -6,20 +6,27 @@
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/button_round.xml" value="0.2203125" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/button_rounded.xml" value="0.2203125" />
-        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/button_rounded_border.xml" value="0.2203125" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/button_rounded_border.xml" value="0.18" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/button_social.xml" value="0.2203125" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/button_social_white.xml" value="0.2203125" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/caja_producto_fila.xml" value="0.2203125" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/rectangulo_border.xml" value="0.2203125" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/splashcreen.xml" value="0.2203125" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/vector_add.xml" value="0.2203125" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/vector_before.xml" value="0.2203125" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/vector_event_.xml" value="0.2203125" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/vector_exit.xml" value="0.2203125" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/vector_lock.xml" value="0.2203125" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/vector_person_circle.xml" value="0.2203125" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/vector_room.xml" value="0.2203125" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/vector_search.xml" value="0.2203125" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/vector_shopping_cart.xml" value="0.2203125" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/vector_smartphone.xml" value="0.2203125" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/vector_usuario.xml" value="0.2203125" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes_informacion.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes_informacion_descripcion.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes_localizacion.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes_informacion.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes_informacion_descripcion.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes_localizacion.xml" value="0.25" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_loguin.xml" value="0.25" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_products.xml" value="0.25" />
