@@ -28,19 +28,19 @@
             android:textSize="34sp" />
 
         //Boton de buscar
-
         <SearchView
             android:id="@+id/txtBuscar"
-            android:layout_width="264dp"
+            android:drawableStart="@drawable/vector_search"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="130dp"
-            android:layout_marginTop="15dp" />
+            android:layout_marginTop="5dp"
+            android:background="@color/Gray"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="120dp">
+            android:layout_marginTop="30dp">
 
             <ImageView
                 android:id="@+id/image_brocha"

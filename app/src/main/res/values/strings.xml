@@ -21,4 +21,7 @@
 
     //opciones de salir de la vista rapido por default
 
+    //informacion del cliente
+    <string name="TextPhoneMovil">3210000000</string>
+
 </resources>
