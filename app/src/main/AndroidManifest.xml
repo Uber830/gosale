@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.sena.gosale">
-
+    //permisos
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -11,6 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key"/>
         <activity
             android:name=".ClientesLocalizacionActivity"
             android:exported="true" />
@@ -22,15 +26,6 @@
             android:exported="true" />
         <activity
             android:name=".ClientesActivity"
-            android:exported="true" />
-        <activity
-            android:name=".VisitaActivity3"
-            android:exported="true" />
-        <activity
-            android:name=".VisitaActivity2"
-            android:exported="true" />
-        <activity
-            android:name=".VisitaActivity"
             android:exported="true" />
         <activity
             android:name=".productsAnatomyActivity"
