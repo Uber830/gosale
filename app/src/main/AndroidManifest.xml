@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".Activity_visita2"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_visita1"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_vista"
+            android:exported="true" />
+        <activity
             android:name=".ClientesLocalizacionActivity"
             android:exported="true" />
         <activity
@@ -22,6 +31,12 @@
             android:exported="true" />
         <activity
             android:name=".ClientesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".VisitafinalActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Visita3Activity"
             android:exported="true" />
         <activity
             android:name=".VisitaActivity3"

@@ -35,10 +35,32 @@
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_visita.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_visita2.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosale/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosale/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosale/app/src/main/res/drawable/vector_email.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosale/app/src/main/res/drawable/vector_location_city_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosale/app/src/main/res/drawable/vector_movil.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosale/app/src/main/res/drawable/vector_phone.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosale/app/src/main/res/drawable/vector_smartphone.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes_informacion.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes_informacion_descripcion.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes_localizacion.xml" value="0.2" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_loguin.xml" value="0.2" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_products.xml" value="0.2" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_products_anatomy.xml" value="0.2" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_products_line.xml" value="0.2" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_visita.xml" value="0.25" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_visita1.xml" value="0.2" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_visita2.xml" value="0.25" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_visita3.xml" value="0.2" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_visitafinal.xml" value="0.2" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_vista.xml" value="0.25" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

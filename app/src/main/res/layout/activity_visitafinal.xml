@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ic_launcher_background"
+    android:orientation="vertical"
+    tools:context=".VisitaActivity2">
+
+    <TextView
+        style="@style/text_inicio_vista"
+        android:text="Go sale"
+        android:textAlignment="viewEnd"
+        android:textSize="15sp" />
+
+    <TextView
+        style="@style/text_inicio_vista"
+        android:layout_width="413dp"
+        android:drawableStart="@drawable/vector_before"
+        android:text="Ubicacion de Visita"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="590dp"
+        app:srcCompat="@drawable/rutavisita" />
+
+</LinearLayout>

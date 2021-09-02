@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Activity_vista">
+
+    <TextView
+        style="@style/text_inicio_vista"
+        android:text="Go sale"
+        android:textAlignment="viewEnd"
+        android:textSize="15sp" />
+
+    <TextView
+        style="@style/text_inicio_vista"
+        android:drawableStart="@drawable/vector_before"
+        android:text="Visitas"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="Nueva Visita"
+        android:textAlignment="center"
+        android:textColor="@color/MediumBlue"
+        android:textSize="34sp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:ems="10"
+        android:hint="Nit"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/Gray"
+        android:textColorHint="@color/Gray" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:ems="10"
+        android:text="Pedro"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/Gray"
+        android:textColorHint="@color/Gray" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+       android:drawableRight="@drawable/ic_baseline_add_circle_24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Pedro Alvarez Rojas"
+        android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:drawableRight="@drawable/ic_baseline_add_circle_24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Pedro Gonzales Alvarado"
+        android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:drawableRight="@drawable/ic_baseline_add_circle_24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Pedro Pascacio Martinez"
+        android:textColor="@color/black" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        style="@style/ClienteButtonRoundStyle"
+        android:layout_gravity="center"
