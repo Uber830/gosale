@@ -152,7 +152,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:background=""
             android:text="$1'234.546"
             android:textColor="@color/ForestGreen"
             android:textSize="20sp" />
@@ -164,7 +163,6 @@
             android:layout_alignParentTop="true"
             android:layout_height="wrap_content"
             android:textColor="@color/red"
-            android:background=""
             android:textSize="20sp"
             android:text="$1'234.546" />
 

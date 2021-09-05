@@ -1,37 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ClientesInformacionDescripcionActivity"
     android:background="@color/white"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    tools:context=".Activity_vista">
 
     <TextView
+        style="@style/text_inicio_vista"
         android:text="Go sale"
-        android:textSize="15sp"
-        style="@style/text_inicio_vista"
-        android:gravity="end"/>
+        android:textAlignment="viewEnd"
+        android:textSize="15sp" />
+
     <TextView
-        android:drawableStart="@drawable/vector_before"
         style="@style/text_inicio_vista"
-        android:text="Clientes"
-        android:textAlignment="center"
-        android:textSize="34sp" />
+        android:drawableStart="@drawable/vector_before"
+        android:text="Visitas"
+        android:textAlignment="center"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="12dp"
-        android:background="@color/azulgrisáceo">
+        android:background="@color/white">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:textSize="16sp"
-            android:text="NIT" />
+            android:text="Nit"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/textNit"
@@ -42,54 +44,59 @@
             android:layout_marginTop="0dp"
             android:ems="10"
             android:text="0123456789"
+            android:textColor="@color/black"
             android:textSize="16sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
             android:layout_below="@id/textNit"
+            android:layout_alignParentStart="true"
             android:layout_marginStart="12dp"
             android:layout_marginEnd="12dp"
-            android:text="PEDRO PASCASIO MARTINEZ"
+            android:background="@color/white"
+            android:text="Pedro Pascacio Martinez"
             android:textAlignment="textStart"
-            android:textSize="20dp"
-            android:background="@color/azulgrisáceo"/>
+            android:textColor="@color/black"
+            android:textSize="20dp" />
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
         android:layout_marginEnd="12dp"
-        android:background="@color/azulgrisáceo">
+        android:background="@color/white">
 
         <EditText
-            android:drawablePadding="12dp"
             android:id="@+id/TextPhoneMovil"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:backgroundTint="@color/black"
-            android:drawableStart="@drawable/vector_smartphone"
+            android:backgroundTint="@color/Gray"
+            android:drawableStart="@drawable/vector_movil"
+            android:drawablePadding="12dp"
             android:ems="10"
             android:hint="@string/TextPhoneMovil"
             android:inputType="phone"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
             android:textSize="18sp" />
 
         <EditText
-            android:drawablePadding="12dp"
             android:id="@+id/TextPhoneFijo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
             android:layout_below="@id/TextPhoneMovil"
-            android:drawableStart="@drawable/vector_phone"
-            android:backgroundTint="@color/black"
-            android:hint="7654123"
+            android:layout_alignParentStart="true"
+            android:backgroundTint="@color/Gray"
+            android:drawableStart="@drawable/vector_local_phone_24"
+            android:drawablePadding="12dp"
             android:ems="10"
-            android:textSize="18sp"
-            android:inputType="phone" />
+            android:hint="7654123"
+            android:inputType="phone"
+            android:textColorHint="@color/black"
+            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/TextPostalAddress"
@@ -97,12 +104,13 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/TextPhoneFijo"
             android:layout_marginTop="0dp"
-            android:backgroundTint="@color/black"
-            android:drawableStart="@drawable/vector_house"
+            android:backgroundTint="@color/Gray"
+            android:drawableStart="@drawable/vector_house_24"
             android:drawablePadding="12dp"
             android:ems="12"
             android:hint="Calle 00 #00-01"
             android:inputType="textPostalAddress"
+            android:textColorHint="@color/black"
             android:textSize="18sp" />
 
         <TextView
@@ -110,31 +118,59 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/TextPhoneFijo"
-            android:drawablePadding="12dp"
-            android:drawableStart="@drawable/vector_person_circle"
-            android:layout_marginEnd="20dp"
             android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:drawableStart="@drawable/vector_location_city_24"
+            android:drawablePadding="12dp"
             android:hint="Bogotá"
+            android:textColorHint="@color/black"
             android:textSize="30sp" />
 
         <EditText
-            android:drawablePadding="12dp"
             android:id="@+id/TextEmailAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:backgroundTint="@color/black"
-            android:drawableStart="@drawable/vector_email"
             android:layout_below="@id/textCity"
+            android:layout_alignParentStart="true"
+            android:backgroundTint="@color/Gray"
+            android:drawableStart="@drawable/vector_email_24"
+            android:drawablePadding="12dp"
             android:ems="25"
             android:hint="Correoelectr@email.com"
-            android:textSize="18sp"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/black"
+            android:textSize="18sp" />
     </RelativeLayout>
-    <fragment
-        android:id="@+id/map"
-        android:name="com.google.android.gms.maps.SupportMapFragment"
-        android:layout_margin="12dp"
+
+    <Space
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="30dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_marginHorizontal="2dp"
+        android:backgroundTint="@color/Gray">
+
+
+        <EditText
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="90dp"
+            android:drawableStart="@drawable/vector_calendar_24"
+            tools:layout_editor_absoluteX="339dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="6dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>

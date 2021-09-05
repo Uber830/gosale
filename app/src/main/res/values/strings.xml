@@ -18,6 +18,11 @@
     <string name="txtEstadisticas">Estadisticas</string>
     //boton de salir
     <string name="txtBuscar">Buscar Producto</string>
+    <string name="go_sale">Go sale</string>
+    <string name="visitas">Visitas</string>
+    <string name="busqueda">busqueda</string>
+    <string name="digite_el_nit">Digite el Nit</string>
+    <string name="string_digite_el_nit">razon social</string>
 
     //opciones de salir de la vista rapido por default
 
