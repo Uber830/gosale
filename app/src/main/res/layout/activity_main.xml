@@ -22,10 +22,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="30dp">
+        android:layout_marginTop="15dp">
 
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/Viewlogo"
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:layout_marginLeft="150dp"
@@ -40,31 +40,37 @@
             android:layout_marginTop="80dp">
 
             <Button
-                android:id="@+id/textProducto"
+                android:id="@+id/btnProducto"
                style="@style/CátalogoButtonRoundStyle"/>
 
             <Button
+                android:id="@+id/btnCliente"
                 style="@style/ClienteButtonRoundStyle"/>
 
             <Button
+                android:id="@+id/btnVisita"
                 style="@style/VisitaButtonRoundStyle"/>
         </LinearLayout>
         <LinearLayout
            style="@style/LinearLayautButtonStyle">
 
             <Button
+                android:id="@+id/btnOrden"
                 style="@style/OrdenButtonRoundStyle"/>
 
             <Button
+                android:id="@+id/btnRecaudo"
                style="@style/RecaudoButtonRoundStyle"/>
 
             <Button
+                android:id="@+id/btnDevolicion"
                 style="@style/DevolucionButtonRoundStyle"/>
         </LinearLayout>
         <LinearLayout
             style="@style/LinearLayautButtonStyle">
 
             <Button
+                android:id="@+id/btnEstadistica"
               style="@style/EstadisticaButtonStyle"/>
         </LinearLayout>
 

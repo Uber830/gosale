@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.NoActionBar" >
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -33,14 +33,7 @@
         //clientes
         <activity
             android:name=".ClientesLocalizacionActivity"
-            android:exported="true"
-            android:theme="@style/SplashTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true"/>
         <activity
             android:name=".ClientesInformacionDescripcionActivity"
             android:exported="true" />
@@ -58,12 +51,18 @@
             android:name=".ProductsLineActivity"
             android:exported="true" />
         <activity
-            android:name=".productsActivity"
+            android:name=".ProductoActivity"
             android:exported="true" />
         //login
         <activity
             android:name=".loguinActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".MainActivity"

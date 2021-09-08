@@ -15,7 +15,8 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 
-class ClientesLocalizacionActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLocationButtonClickListener, GoogleMap.OnMyLocationClickListener {
+class ClientesLocalizacionActivity : AppCompatActivity(), OnMapReadyCallback,
+    GoogleMap.OnMyLocationButtonClickListener, GoogleMap.OnMyLocationClickListener {
 
     private lateinit var map: GoogleMap
 
@@ -100,8 +101,8 @@ class ClientesLocalizacionActivity : AppCompatActivity(), OnMapReadyCallback, Go
         permissions: Array<out String>,
         grantResults: IntArray
     ) {
-        when (requestCode){
-            REQUEST_CODE_LOCATION -> if(grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+        when (requestCode) {
+            REQUEST_CODE_LOCATION -> if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 map.isMyLocationEnabled = true //se activa la ubicacion
             } else {
                 Toast.makeText(
@@ -110,7 +111,8 @@ class ClientesLocalizacionActivity : AppCompatActivity(), OnMapReadyCallback, Go
                     Toast.LENGTH_SHORT
                 ).show()
             }
-            else -> {}
+            else -> {
+            }
         }
     }
 
@@ -118,7 +120,7 @@ class ClientesLocalizacionActivity : AppCompatActivity(), OnMapReadyCallback, Go
     override fun onResumeFragments() {
         super.onResumeFragments()
         if (!::map.isInitialized) return //si el mapa no esta inicializado, salga de hay
-        if(isLocatePermissionGranted()){
+        if (isLocatePermissionGranted()) {
             map.isMyLocationEnabled = false
             //mensaje informativo
             Toast.makeText(
