@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sena.gosale">
+    package="com.sena.gosale" >
 
+    //permisos
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
     <application
         android:allowBackup="true"
@@ -11,51 +12,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity
-            android:name=".Recaudos6"
-            android:exported="true" />
-        <activity
-            android:name=".Recaudos5"
-            android:exported="true" />
-        <activity
-            android:name=".Recaudos4"
-            android:exported="true" />
-        <activity
-            android:name=".Recaudos3"
-            android:exported="true" />
-        <activity
-            android:name=".Recaudos2"
-            android:exported="true" />
-        <activity
-            android:name=".Recaudos"
-            android:exported="true" />
-        <activity
-            android:name=".EstadosDeCuenta"
-            android:exported="true" />
-        <activity
-            android:name=".Devoluciones6"
-            android:exported="true" />
-        <activity
-            android:name=".Devoluciones5"
-            android:exported="true" />
-        <activity
-            android:name=".Devoluciones4"
-            android:exported="true" />
-        <activity
-            android:name=".Devoluciones3"
-            android:exported="true" />
-        <activity
-            android:name=".Devoluciones2"
-            android:exported="true" />
-        <activity
-            android:name=".Devoluciones"
-            android:exported="true" />
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
-
+        <!-- visitas -->
         <activity
             android:name=".Activity_visita2"
             android:exported="true" />
@@ -68,9 +30,10 @@
         <activity
             android:name=".VisitafinalActivity"
             android:exported="true" />
+        <!-- clientes-->
         <activity
             android:name=".ClientesLocalizacionActivity"
-            android:exported="true" />
+            android:exported="true"/>
         <activity
             android:name=".ClientesInformacionDescripcionActivity"
             android:exported="true" />
@@ -80,6 +43,7 @@
         <activity
             android:name=".ClientesActivity"
             android:exported="true" />
+        <!-- Producto -->
         <activity
             android:name=".productsAnatomyActivity"
             android:exported="true" />
@@ -89,6 +53,7 @@
         <activity
             android:name=".ProductoActivity"
             android:exported="true" />
+        <!-- login-->
         <activity
             android:name=".loguinActivity"
             android:exported="true"

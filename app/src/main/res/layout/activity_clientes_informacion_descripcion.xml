@@ -22,8 +22,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="12dp"
-        android:background="@color/azulgrisáceo">
+        android:layout_margin="12dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -41,27 +40,25 @@
             android:layout_marginStart="60dp"
             android:layout_marginTop="0dp"
             android:ems="10"
-            android:text="0123456789"
+            android:hint="0123456789"
             android:textSize="16sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
             android:layout_below="@id/textNit"
+            android:layout_alignParentStart="true"
             android:layout_marginStart="12dp"
             android:layout_marginEnd="12dp"
-            android:text="PEDRO PASCASIO MARTINEZ"
+            android:hint="PEDRO PASCASIO MARTINEZ"
             android:textAlignment="textStart"
-            android:textSize="20dp"
-            android:background="@color/azulgrisáceo"/>
+            android:textSize="20dp" />
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
-        android:layout_marginEnd="12dp"
-        android:background="@color/azulgrisáceo">
+        android:layout_marginEnd="12dp">
 
         <EditText
             android:drawablePadding="12dp"
@@ -136,5 +133,5 @@
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_margin="12dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent" />
 </LinearLayout>
