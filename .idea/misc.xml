@@ -22,14 +22,15 @@
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/vector_search.xml" value="0.2203125" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/vector_shopping_cart.xml" value="0.2203125" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/vector_smartphone.xml" value="0.2203125" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/vector_started.xml" value="0.2203125" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/vector_usuario.xml" value="0.2203125" />
-        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes.xml" value="0.22" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes_informacion.xml" value="0.25" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes_informacion_descripcion.xml" value="0.25" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes_localizacion.xml" value="0.25" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_loguin.xml" value="0.25" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_producto.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_producto.xml" value="0.22" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_products.xml" value="0.25" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_products_anatomy.xml" value="0.25" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_products_line.xml" value="0.25" />
@@ -42,7 +43,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

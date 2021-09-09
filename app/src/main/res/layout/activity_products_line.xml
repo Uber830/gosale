@@ -105,6 +105,7 @@
                 android:drawableStart="@drawable/vector_add"/>
 
             <ImageView
+                android:id="@+id/imagenBrocha"
                 android:layout_width="150dp"
                 android:layout_height="80dp"
                 app:srcCompat="@drawable/brochaspartes" />

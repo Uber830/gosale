@@ -1,7 +1,9 @@
 package com.sena.gosale
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
@@ -17,7 +19,13 @@ class ClientesInformacionDescripcionActivity : AppCompatActivity(), OnMapReadyCa
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_clientes_informacion_descripcion)
 
+        val mapa = findViewById<View>(R.id.map)
         createFragment()
+
+        mapa.setOnClickListener{
+            val ventanaMapa = Intent(this, ClientesLocalizacionActivity::class.java)
+            startActivity(ventanaMapa)
+        }
     }
     //creacion del mapa
     private fun createFragment() {

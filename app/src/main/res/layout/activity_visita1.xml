@@ -57,35 +57,38 @@
         android:ems="10"
         android:hint="Pedro"
         android:inputType="textPersonName"
-        android:textColor="@color/black"
         android:textColorHighlight="@color/Gray"
-        android:textColorHint="@color/Gray" />
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"/>
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
        android:drawableRight="@drawable/ic_baseline_add_circle_24"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
+        android:ems="20"
+        android:textColorHint="@color/black"
         android:inputType="textPersonName"
-        android:text="Pedro Alvarez Rojas"
-        android:textColor="@color/black" />
+        android:hint="Pedro Alvarez Rojas"
+       android:backgroundTint="@color/black" />
+    <EditText
+        android:drawableEnd="@drawable/ic_baseline_add_circle_24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:textColorHint="@color/black"
+        android:inputType="textPersonName"
+        android:hint="Pedro Gonzales Alvarado"
+        android:backgroundTint="@color/black" />
     <EditText
         android:drawableRight="@drawable/ic_baseline_add_circle_24"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:textColorHint="@color/black"
         android:inputType="textPersonName"
-        android:text="Pedro Gonzales Alvarado"
-        android:textColor="@color/black" />
-    <EditText
-        android:drawableRight="@drawable/ic_baseline_add_circle_24"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Pedro Pascacio Martinez"
-        android:textColor="@color/black" />
+        android:hint="Pedro Pascacio Martinez"
+        android:backgroundTint="@color/black"/>
     <Space
         android:layout_width="match_parent"
         android:layout_height="0dp"

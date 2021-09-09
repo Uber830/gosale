@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         val devolucion = findViewById<Button>(R.id.btnDevolicion)
         val estadistica = findViewById<Button>(R.id.btnEstadistica)
 
-        /*Acciones del boton producto que se pueden realizar al dar un click*/
+
         producto.setOnClickListener {
            val ventanaProducto = Intent(this, ProductoActivity::class.java)
             startActivity(ventanaProducto)

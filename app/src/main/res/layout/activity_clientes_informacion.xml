@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
        android:layout_margin="12dp"
-        android:background="@color/azulgrisáceo">
+        android:background="@color/white">
 
         <TextView
             android:layout_width="wrap_content"
@@ -58,14 +58,14 @@
             android:hint="PEDRO PASCASIO MARTINEZ"
             android:textAlignment="textStart"
             android:textSize="20dp"
-            android:background="@color/azulgrisáceo"/>
+            android:background="@color/white"/>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
        android:layout_marginStart="12dp"
         android:layout_marginEnd="12dp"
-        android:background="@color/azulgrisáceo">
+        android:background="@color/white">
 
         <EditText
             android:drawablePadding="12dp"
@@ -82,18 +82,18 @@
             android:textSize="18sp" />
 
         <EditText
-            android:drawablePadding="12dp"
             android:id="@+id/TextPhoneFijo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
             android:layout_below="@id/TextPhoneMovil"
-            android:drawableStart="@drawable/vector_phone"
+            android:layout_alignParentStart="true"
             android:backgroundTint="@color/black"
-            android:hint="7654123"
+            android:drawableStart="@drawable/vector_phone"
+            android:drawablePadding="12dp"
             android:ems="10"
-            android:textSize="18sp"
-            android:inputType="phone" />
+            android:hint="7654123"
+            android:inputType="phone"
+            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/TextPostalAddress"
@@ -195,7 +195,7 @@
         android:background="@drawable/button_rounded">
 
         <ImageView
-            android:id="@+id/buttonShopping"
+            android:id="@+id/btnCompra"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -208,7 +208,7 @@
             app:srcCompat="@drawable/vector_shopping_cart" />
 
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/btnCita"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -218,12 +218,12 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="73dp"
             android:layout_marginBottom="10dp"
-            android:layout_toStartOf="@+id/imageView7"
+            android:layout_toStartOf="@+id/btnUbicacion"
             android:background="@drawable/button_social_white"
             app:srcCompat="@drawable/vector_event_" />
 
         <ImageView
-            android:id="@+id/imageView7"
+            android:id="@+id/btnUbicacion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -231,7 +231,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="73dp"
             android:layout_marginBottom="10dp"
-            android:layout_toStartOf="@+id/buttonShopping"
+            android:layout_toStartOf="@+id/btnCompra"
             android:background="@drawable/button_social_white"
             app:srcCompat="@drawable/vector_room" />
 

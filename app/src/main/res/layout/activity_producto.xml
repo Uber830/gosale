@@ -43,7 +43,7 @@
             android:layout_marginTop="30dp">
 
             <ImageView
-                android:id="@+id/image_brocha"
+                android:id="@+id/imageBrocha"
                 android:layout_width="28mm"
                 android:layout_height="86dp"
                 android:layout_marginLeft="10dp"
@@ -51,7 +51,7 @@
                 app:srcCompat="@drawable/brochas" />
 
             <ImageView
-                android:id="@+id/image_rodillo"
+                android:id="@+id/imageRodillo"
                 android:layout_width="28mm"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
@@ -64,7 +64,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/image_llana"
+                android:id="@+id/imageLlana"
                 android:layout_width="28mm"
                 android:layout_height="108dp"
                 android:layout_marginLeft="10dp"
@@ -73,7 +73,7 @@
                 app:srcCompat="@drawable/llanas" />
 
             <ImageView
-                android:id="@+id/image_espatula"
+                android:id="@+id/imageEspatula"
                 android:layout_width="28mm"
                 android:layout_height="108dp"
                 android:layout_marginLeft="10dp"
@@ -87,7 +87,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/image_accesorio"
+                android:id="@+id/imageAccesorio"
                 android:layout_width="28mm"
                 android:layout_height="84dp"
                 android:layout_marginLeft="10dp"
@@ -96,7 +96,7 @@
                 app:srcCompat="@drawable/accesorios" />
 
             <ImageView
-                android:id="@+id/image_kit"
+                android:id="@+id/imageKit"
                 android:layout_width="28mm"
                 android:layout_height="84dp"
                 android:layout_marginLeft="10dp"
@@ -110,7 +110,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/image_galon"
+                android:id="@+id/imageGalon"
                 android:layout_width="28mm"
                 android:layout_height="108dp"
                 android:layout_marginLeft="10dp"
@@ -133,7 +133,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/image_guantes"
+                android:id="@+id/imageGuantes"
                 android:layout_width="28mm"
                 android:layout_height="84dp"
                 android:layout_marginLeft="10dp"
@@ -142,7 +142,7 @@
                 app:srcCompat="@drawable/guantes" />
 
             <ImageView
-                android:id="@+id/image_nivel"
+                android:id="@+id/imageNivel"
                 android:layout_width="28mm"
                 android:layout_height="84dp"
                 android:layout_marginLeft="10dp"

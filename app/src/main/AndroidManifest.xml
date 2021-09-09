@@ -17,7 +17,7 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
-        //visitas
+        <!-- visitas -->
         <activity
             android:name=".Activity_visita2"
             android:exported="true" />
@@ -30,7 +30,7 @@
         <activity
             android:name=".VisitafinalActivity"
             android:exported="true" />
-        //clientes
+        <!-- clientes-->
         <activity
             android:name=".ClientesLocalizacionActivity"
             android:exported="true"/>
@@ -43,7 +43,7 @@
         <activity
             android:name=".ClientesActivity"
             android:exported="true" />
-        //productos
+        <!-- Producto -->
         <activity
             android:name=".productsAnatomyActivity"
             android:exported="true" />
@@ -53,7 +53,7 @@
         <activity
             android:name=".ProductoActivity"
             android:exported="true" />
-        //login
+        <!-- login-->
         <activity
             android:name=".loguinActivity"
             android:exported="true"
