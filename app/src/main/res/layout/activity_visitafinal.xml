@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/ic_launcher_background"
     android:orientation="vertical"
-    tools:context=".VisitaActivity2">
+    tools:context=".Activity_vista">
 
     <TextView
         style="@style/text_inicio_vista"
@@ -22,10 +21,11 @@
         android:textAlignment="center"
         android:textSize="34sp" />
 
-    <ImageView
-        android:id="@+id/imageView3"
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_margin="12dp"
         android:layout_width="match_parent"
-        android:layout_height="590dp"
-        app:srcCompat="@drawable/rutavisita" />
+        android:layout_height="match_parent"/>
 
 </LinearLayout>
