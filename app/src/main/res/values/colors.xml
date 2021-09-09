@@ -26,4 +26,18 @@
     <color name="secondary_text">#757575</color>
     <color name="icons">#212121</color>
 
+    //Colores de tema Flatly
+    <color name="colorThemePrimary">#2C3E50</color>
+    <color name="colorThemeSecondary">#6F7D7E</color>
+    <color name="colorThemeSuccess">#18BC9C</color>
+    <color name="colorThemeInfo">#3498DB</color>
+    <color name="colorThemeWarning">#f39c12</color>
+    <color name="colorThemeDanger">#e74c3c</color>
+
+    //Colores botones principal
+    <color name="colorMainBlue">#3152FF</color>
+    <color name="colorMainGreen">#178600</color>
+    <color name="colorMainRed">#D01515</color>
+
+
 </resources>
