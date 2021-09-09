@@ -9,6 +9,6 @@ class EstadosDeCuenta : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_estados_de_cuenta)
 
-        MyToolbar().show(this, "Estados de Cuenta", true)
+        NewToolbar().show(this, "Estados de cuenta", true)
     }
 }

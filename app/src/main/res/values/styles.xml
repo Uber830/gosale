@@ -113,5 +113,15 @@
         <item name="android:layout_marginLeft">60dp</item>
     </style>
 
-    <style name="ToolbarTheme">ToolbarTheme</style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorThemePrimary</item>
+        <item name="colorPrimaryDark">@color/colorThemeSecondary</item>
+        <item name="colorAccent">@color/colorThemeSuccess</item>
+
+    </style>
+
+    <style name="ToolbarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="titleTextColor">@color/white</item>
+    </style>
 </resources>
