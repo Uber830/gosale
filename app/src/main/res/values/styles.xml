@@ -120,7 +120,7 @@
 
     </style>
 
-    <style name="ToolbarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="ToolbarTheme">
         <item name="colorControlNormal">@color/white</item>
         <item name="titleTextColor">@color/white</item>
     </style>
