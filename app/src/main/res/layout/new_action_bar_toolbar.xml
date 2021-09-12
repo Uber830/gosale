@@ -6,11 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <androidx.appcompat.widget.Toolbar
+  <!--  <androidx.appcompat.widget.Toolbar
         android:id="@+id/newtoolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorThemePrimary"
-        app:theme="@style/ToolbarTheme"/>
+        app:theme="@style/ToolbarTheme"/> -->
 
 </com.google.android.material.appbar.AppBarLayout>

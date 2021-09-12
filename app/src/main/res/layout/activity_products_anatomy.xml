@@ -27,11 +27,11 @@
             android:textAlignment="center"
             android:textSize="34sp" />
 
-        <org.imaginativeworld.whynotimagecarousel.ImageCarousel
-            android:id="@+id/carousel"
+        <ImageView
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:layout_margin="10dp"/>
+            android:layout_margin="10dp"
+            app:srcCompat="@drawable/brochaspartes" />
 
         <TextView
             android:id="@+id/textView4"

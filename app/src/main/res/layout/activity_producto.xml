@@ -119,7 +119,7 @@
                 app:srcCompat="@drawable/galones" />
 
             <ImageView
-                android:id="@+id/image_win"
+                android:id="@+id/imageWin"
                 android:layout_width="28mm"
                 android:layout_height="108dp"
                 android:layout_marginLeft="10dp"

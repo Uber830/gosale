@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         recaudo.setOnClickListener {
-            val ventanaRecaudo = Intent(this, ClientesActivity::class.java)
+            val ventanaRecaudo = Intent(this, Recaudos::class.java)
             startActivity(ventanaRecaudo)
 
             Toast.makeText(applicationContext, "Recaudos Pulsado", Toast.LENGTH_SHORT).show()
