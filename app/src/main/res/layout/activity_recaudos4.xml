@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Recaudos4">
+    tools:context=".RecaudosActivity4">
 
     <include
         layout="@layout/action_bar_toolbar"/>
@@ -182,7 +182,7 @@
         app:layout_constraintGuide_percent="0.85" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnRecaudo"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@drawable/round_maingreen"

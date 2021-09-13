@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class Recaudos2 : AppCompatActivity() {
+class RecaudosActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recaudos2)
@@ -15,7 +15,7 @@ class Recaudos2 : AppCompatActivity() {
         val botonPasar = findViewById<Button>(R.id.btnPasar2)
 
         botonPasar.setOnClickListener{
-            val ventanaPasar = Intent(this, Recaudos3::class.java)
+            val ventanaPasar = Intent(this, RecaudosActivity3::class.java)
             startActivity(ventanaPasar)
         }
     }

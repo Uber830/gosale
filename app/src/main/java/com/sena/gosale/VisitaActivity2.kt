@@ -5,16 +5,17 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class Activity_visita1 : AppCompatActivity() {
+class VisitaActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_visita1)
+        setContentView(R.layout.activity_visita2)
 
         val botonPasar = findViewById<Button>(R.id.btnPasarVisita)
 
         botonPasar.setOnClickListener{
-            val ventanaPasar = Intent(this, VisitaActivity2::class.java)
+            val ventanaPasar = Intent(this, VisitafinalActivity::class.java)
             startActivity(ventanaPasar)
         }
+
     }
 }

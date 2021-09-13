@@ -46,28 +46,28 @@ class MainActivity : AppCompatActivity() {
         }
 
         orden.setOnClickListener {
-            val ventanaOrden = Intent(this, ClientesActivity::class.java)
+            val ventanaOrden = Intent(this, OrdenesActivity::class.java)
             startActivity(ventanaOrden)
 
             Toast.makeText(applicationContext, "Ordenes Pulsado", Toast.LENGTH_SHORT).show()
         }
 
         recaudo.setOnClickListener {
-            val ventanaRecaudo = Intent(this, Recaudos::class.java)
+            val ventanaRecaudo = Intent(this, RecaudosActivity::class.java)
             startActivity(ventanaRecaudo)
 
             Toast.makeText(applicationContext, "Recaudos Pulsado", Toast.LENGTH_SHORT).show()
         }
 
         devolucion.setOnClickListener {
-            val ventanaDevolucion = Intent(this, ClientesActivity::class.java)
+            val ventanaDevolucion = Intent(this, DevolucionesActivity::class.java)
             startActivity(ventanaDevolucion)
 
             Toast.makeText(applicationContext, "Devoluciones Pulsado", Toast.LENGTH_SHORT).show()
         }
 
         estadistica.setOnClickListener {
-            val ventanaEstadistica = Intent(this, ClientesActivity::class.java)
+            val ventanaEstadistica = Intent(this, EstadisticasActivity::class.java)
             startActivity(ventanaEstadistica)
 
             Toast.makeText(applicationContext, "Estadisticas Pulsado", Toast.LENGTH_SHORT).show()

@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".Recaudos">
+    tools:context=".RecaudosActivity">
 
     <include
         layout="@layout/action_bar_toolbar"/>
@@ -79,7 +78,7 @@
         app:layout_constraintGuide_percent="0.22" />
 
     <Button
-        android:id="@+id/btnNvRecaudo"
+        android:id="@+id/btnRecaudo"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="+"

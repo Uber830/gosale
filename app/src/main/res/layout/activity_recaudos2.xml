@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Recaudos2">
+    tools:context=".RecaudosActivity2">
 
     <Button
         android:id="@+id/btnPasar2"

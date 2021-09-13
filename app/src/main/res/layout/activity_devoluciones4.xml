@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Devoluciones4">
+    tools:context=".DevolucionesActivity4">
 
     <include
         layout="@layout/action_bar_toolbar"/>
@@ -244,7 +244,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline15" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnGenerar"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:background="@drawable/round_mainred"

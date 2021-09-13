@@ -3,9 +3,9 @@ package com.sena.gosale
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class Estadisticas3 : AppCompatActivity() {
+class EstadisticasActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_estadisticas3)
+        setContentView(R.layout.activity_estadisticas)
     }
 }

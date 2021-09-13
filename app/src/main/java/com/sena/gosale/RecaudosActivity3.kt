@@ -5,15 +5,17 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class Activity_visita1 : AppCompatActivity() {
+class RecaudosActivity3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_visita1)
+        setContentView(R.layout.activity_recaudos3)
 
-        val botonPasar = findViewById<Button>(R.id.btnPasarVisita)
+        MyToolbar().show(this, "Recaudos", true)
+
+        val botonPasar = findViewById<Button>(R.id.btnPasar3)
 
         botonPasar.setOnClickListener{
-            val ventanaPasar = Intent(this, VisitaActivity2::class.java)
+            val ventanaPasar = Intent(this, RecaudosActivity4::class.java)
             startActivity(ventanaPasar)
         }
     }

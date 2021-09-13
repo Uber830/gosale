@@ -1,5 +1,6 @@
 package com.sena.gosale
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.android.gms.maps.*
@@ -37,4 +38,11 @@ class ClientesInformacionDescripcionActivity : AppCompatActivity(), OnMapReadyCa
             null
         )
     }
+   /* fun clickBotonMapa(){
+        map.setOnMapClickListener(){
+            val ventanaMapa: Intent = Intent(applicationContext, ClientesLocalizacionActivity::class.java)
+            startActivity(ventanaMapa)
+        }
+    } */
 }
+

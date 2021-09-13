@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Recaudos5">
+    tools:context=".RecaudosActivity5">
 
     <include
         layout="@layout/action_bar_toolbar"/>
@@ -123,8 +123,10 @@
         android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/guideline9"
         app:layout_constraintEnd_toStartOf="@+id/guideline12"
+        app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toTopOf="@+id/guideline8" />
+        app:layout_constraintTop_toTopOf="@+id/guideline8"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView11"
@@ -174,7 +176,7 @@
         app:layout_constraintGuide_percent="0.95" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnEnviar"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:background="@drawable/round_maingreen"

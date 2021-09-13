@@ -3,11 +3,9 @@ package com.sena.gosale
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class Devoluciones6 : AppCompatActivity() {
+class EstadisticasActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_devoluciones6)
-
-        MyToolbar().show(this, "Devoluciones", true)
+        setContentView(R.layout.activity_estadisticas2)
     }
 }

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Devoluciones5">
+    tools:context=".DevolucionesActivity5">
 
     <include
         layout="@layout/action_bar_toolbar"/>
@@ -170,7 +170,7 @@
         app:layout_constraintGuide_percent="0.95" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnEnviar"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:background="@drawable/round_mainred"

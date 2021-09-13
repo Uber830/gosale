@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Devoluciones2">
+    tools:context=".DevolucionesActivity2">
 
     <Button
         android:id="@+id/btnPasar3"
