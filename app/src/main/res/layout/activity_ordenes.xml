@@ -5,67 +5,96 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".OrdenesActivity">
+    <?xml version="1.0" encoding="utf-8"?>
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.Barrier
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="top"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="110dp" />
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/white"
-        android:orientation="vertical"
-        tools:context=".OrdenesActivity">
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="Buscar Orden"
+        android:gravity="center"
+        android:textColor="@color/MediumBlue"
+        android:textSize="24sp" />
 
-        <TextView
-            style="@style/text_inicio_vista"
-            android:text="@string/go_sale"
-            android:textAlignment="viewEnd"
-            android:textSize="15sp" />
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.1" />
 
-        <TextView
-            style="@style/text_inicio_vista"
-            android:text="ordenes"
-            android:gravity="center"
-            android:textAlignment="center"
-            android:textSize="34sp"
-            app:drawableStartCompat="@drawable/vector_before" />
-        <SearchView
-            android:id="@+id/searchBuscar"
-            android:layout_width="match_parent"
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline3"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/Gray"/>
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.20109439" />
 
-      <!--  <EditText
-            android:id="@+id/editTextTextPersonName2"
-            android:drawableEnd="@drawable/ic_baseline_add_circle_24"
-            android:layout_width="match_parent"
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline4"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="@string/nombre_de_cliente_razon_social"
-            android:textColor="@color/black"
-            android:autofillHints="" />
-        <EditText
-            android:drawableEnd="@drawable/ic_baseline_add_circle_24"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="@string/nombre_de_cliente_razon_social"
-            android:textColor="@color/black"
-            android:autofillHints="" />
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
 
-        <EditText
-            android:drawableEnd="@drawable/ic_baseline_add_circle_24"
-            android:layout_width="match_parent"
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline6"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="@string/nombre_de_cliente_razon_social"
-            android:textColor="@color/black"
-            android:autofillHints="" />
-        <Space
-            android:layout_width="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+
+        <ListView
+            android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_weight="1"/> -->
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline6"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline4"
+            app:layout_constraintTop_toTopOf="@+id/guideline7"
+            app:layout_constraintVertical_bias="1.0" />
 
-    </LinearLayout>
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.22" />
 
+        <SearchView
+            android:id="@+id/txtEDCBuscar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/guideline3"
+            app:layout_constraintEnd_toStartOf="@+id/guideline6"
+            app:layout_constraintStart_toStartOf="@+id/guideline5"
+            app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.22" />
+
+        <Button
+            android:id="@+id/btnOrden"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="+"
+            android:background="@drawable/round_mainblue"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline3"
+            app:layout_constraintEnd_toStartOf="@+id/guideline5"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline4"
+            app:layout_constraintTop_toTopOf="@+id/guideline2"
+            app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
