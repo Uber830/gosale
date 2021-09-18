@@ -70,6 +70,29 @@
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_visitafinal.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_vista.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
+        <entry key="..\:/Users/jaime/AndroidStudioProjects/gosale/app/src/main/res/layout/action_bar_toolbar.xml" value="0.15625" />
+        <entry key="..\:/Users/jaime/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/jaime/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes_informacion.xml" value="0.14" />
+        <entry key="..\:/Users/jaime/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes_informacion_descripcion.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/jaime/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes_localizacion.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/jaime/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_devoluciones.xml" value="0.12182971014492754" />
+        <entry key="..\:/Users/jaime/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_devoluciones2.xml" value="0.12182971014492754" />
+        <entry key="..\:/Users/jaime/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_producto.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/jaime/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_products_anatomy.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/jaime/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_recaudos.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/jaime/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_recaudos2.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/jaime/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_recaudos3.xml" value="0.22" />
+        <entry key="..\:/Users/jaime/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_recaudos4.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/jaime/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_recaudos5.xml" value="0.22" />
+        <entry key="..\:/Users/jaime/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_recaudos6.xml" value="0.25" />
+        <entry key="..\:/Users/jaime/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_visita.xml" value="0.11413043478260869" />
+        <entry key="..\:/Users/jaime/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_visita1.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/jaime/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_visita2.xml" value="0.12182971014492754" />
+        <entry key="..\:/Users/jaime/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_vista.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/jaime/AndroidStudioProjects/gosale/app/src/main/res/layout/row_client.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/jaime/AndroidStudioProjects/gosale/app/src/main/res/layout/row_client_recaudo.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/jaime/AndroidStudioProjects/gosale/app/src/main/res/layout/row_client_visit.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/jaime/AndroidStudioProjects/gosale/app/src/main/res/layout/row_recaudo.xml" value="0.33" />
       </map>
     </option>
   </component>

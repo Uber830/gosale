@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         visita.setOnClickListener {
-            val ventanaVisita = Intent(this, Activity_vista::class.java)
+            val ventanaVisita = Intent(this, VisitaActivity::class.java)
             startActivity(ventanaVisita)
 
             Toast.makeText(applicationContext, "Visitas Pulsado", Toast.LENGTH_SHORT).show()

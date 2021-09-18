@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Activity_vista">
+
+  <TextView
+      style="@style/text_inicio_vista"
+      android:text="Go sale"
+      android:textAlignment="viewEnd"
+      android:textSize="15sp" />
+
+  <TextView
+      style="@style/text_inicio_vista"
+      android:drawableStart="@drawable/vector_before"
+      android:text="Visitas"
+      android:textAlignment="center"
+      android:textSize="34sp" />
+
+  <Space
+      android:layout_width="match_parent"
+      android:layout_height="30dp"/>
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/white"
+      android:text="Nueva Visita"
+      android:textAlignment="center"
+      android:textColor="@color/MediumBlue"
+      android:textSize="34sp" />
+  <Space
+      android:layout_width="match_parent"
+      android:layout_height="30dp"/>
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="12dp"
+      android:ems="10"
+      android:hint="Nit"
+      android:inputType="textPersonName"
+      android:textColor="@color/black"
+      android:textColorHighlight="@color/Gray"
+      android:textColorHint="@color/Gray" />
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="12dp"
+      android:ems="10"
+      android:hint="Cliente"
+      android:inputType="textPersonName"
+      android:textColor="@color/black"
+      android:textColorHighlight="@color/Gray"
+      android:textColorHint="@color/Gray" />
+
+  <TableLayout
+      android:id="@+id/tbVisit"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+  </TableLayout>
+
+</LinearLayout>
+
+

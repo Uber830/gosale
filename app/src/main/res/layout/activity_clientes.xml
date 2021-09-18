@@ -24,24 +24,44 @@
         android:id="@+id/searchBuscar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/Gray"/>
+        android:background="@color/Gray">
 
-//agregar lista de elementos
-    <androidx.recyclerview.widget.RecyclerView
+    </SearchView>
+
+    //agregar lista de elementos
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:layout_margin="12dp"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        tools:listitem="@android:layout/list_content" >
-    </androidx.recyclerview.widget.RecyclerView>
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
 
-    <Button
-        android:id="@+id/btnPasar"
-        android:layout_width="40dp"
-        android:layout_height="43dp"
-        android:background="@color/white"
-        android:layout_marginStart="320dp"
-        android:layout_marginBottom="10dp"
-        android:drawableStart="@drawable/vector_started" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:id="@+id/tbClient"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:layout_editor_absoluteY="787dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </TableLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
 </LinearLayout>

@@ -12,12 +12,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity
+            android:name=".VisitaActivity"
+            android:exported="true" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
-
-        <!--Visita -->
+            android:value="@string/google_maps_key" /> <!-- Visita -->
         <activity
             android:name=".Activity_vista"
             android:exported="true" />
@@ -29,52 +30,46 @@
             android:exported="true" />
         <activity
             android:name=".VisitafinalActivity"
-            android:exported="true" />
-
-        <!-- Ordenes-->
-        <activity android:name=".OrdenesActivity"
-            android:exported="true"/>
-
-        <!--Recaudo -->
+            android:exported="true" /> <!-- Ordenes -->
+        <activity
+            android:name=".OrdenesActivity"
+            android:exported="true" /> <!-- Recaudo -->
         <activity
             android:name=".RecaudosActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".RecaudosActivity2"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".RecaudosActivity3"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".RecaudosActivity4"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".RecaudosActivity5"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".RecaudosActivity6"
-            android:exported="true"/>
-        <!--Devoluciones -->
+            android:exported="true" /> <!-- Devoluciones -->
         <activity
             android:name=".DevolucionesActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".DevolucionesActivity2"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".DevolucionesActivity3"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".DevolucionesActivity4"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".DevolucionesActivity5"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".DevolucionesActivity6"
-            android:exported="true"/>
-
-        <!--Cliente -->
+            android:exported="true" /> <!-- Cliente -->
         <activity
             android:name=".ClientesLocalizacionActivity"
             android:exported="true" />
@@ -86,9 +81,7 @@
             android:exported="true" />
         <activity
             android:name=".ClientesActivity"
-            android:exported="true" />
-
-        <!--Producto -->
+            android:exported="true" /> <!-- Producto -->
         <activity
             android:name=".productsAnatomyActivity"
             android:exported="true" />
@@ -97,8 +90,7 @@
             android:exported="true" />
         <activity
             android:name=".ProductoActivity"
-            android:exported="true" />
-        <!--Login -->
+            android:exported="true" /> <!-- Login -->
         <activity
             android:name=".loguinActivity"
             android:exported="true"
@@ -108,14 +100,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-
-        <!--Principal -->
+        </activity> <!-- Principal -->
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
-
-        <!--Estadisticas -->
+            android:exported="true" /> <!-- Estadisticas -->
         <activity
             android:name=".EstadisticasActivity"
             android:exported="true" />
