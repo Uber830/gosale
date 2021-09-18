@@ -20,11 +20,13 @@
         android:textAlignment="center"
         android:textSize="34sp" />
     //elemento de busqueda
+
     <SearchView
         android:id="@+id/searchBuscar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/Gray">
+        android:background="@color/Gray"
+        android:padding="2dp">
 
     </SearchView>
 
