@@ -70,10 +70,25 @@
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_visitafinal.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_vista.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosalev9/app/src/main/res/layout/action_bar_toolbar.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosalev9/app/src/main/res/layout/activity_clientes.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosalev9/app/src/main/res/layout/activity_clientes_informacion.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosalev9/app/src/main/res/layout/activity_clientes_informacion_descripcion.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosalev9/app/src/main/res/layout/activity_clientes_localizacion.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosalev9/app/src/main/res/layout/activity_devoluciones3.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosalev9/app/src/main/res/layout/activity_ordenes.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosalev9/app/src/main/res/layout/activity_recaudos.xml" value="0.1" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosalev9/app/src/main/res/layout/activity_recaudos2.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosalev9/app/src/main/res/layout/activity_recaudos3.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosalev9/app/src/main/res/layout/activity_recaudos4.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosalev9/app/src/main/res/layout/activity_visita1.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosalev9/app/src/main/res/layout/activity_visita2.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosalev9/app/src/main/res/layout/activity_visitafinal.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/satup/AndroidStudioProjects/gosalev9/app/src/main/res/layout/activity_vista.xml" value="0.22447916666666667" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
