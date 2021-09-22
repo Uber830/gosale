@@ -9,10 +9,7 @@
     tools:context=".ProductsLineActivity">
 
     <TextView
-        style="@style/text_inicio_vista"
-        android:text="Go sale"
-        android:textAlignment="viewEnd"
-        android:textSize="15sp" />
+        style="@style/text_inicio_vista" />
 
     <TextView
         style="@style/text_inicio_vista"

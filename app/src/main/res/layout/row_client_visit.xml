@@ -9,7 +9,8 @@
         android:id="@+id/divider3"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="?android:attr/listDivider" />
+        android:background="?android:attr/listDivider"
+        tools:ignore="MissingConstraints" />
 
     <ScrollView
         android:layout_width="match_parent"

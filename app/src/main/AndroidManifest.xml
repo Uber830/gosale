@@ -13,14 +13,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity
-            android:name=".VisitaActivity"
+            android:name=".VisitaAgendaActivity"
             android:exported="true" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" /> <!-- Visita -->
         <activity
-            android:name=".Activity_vista"
+            android:name=".VisitaActivity"
             android:exported="true" />
         <activity
             android:name=".Activity_visita1"

@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     android:orientation="vertical"
-    tools:context=".Activity_vista">
+    tools:context=".VisitaActivity">
 
   <TextView
-      style="@style/text_inicio_vista"
-      android:text="Go sale"
-      android:textAlignment="viewEnd"
-      android:textSize="15sp" />
+      style="@style/text_inicio_vista" />
 
   <TextView
       style="@style/text_inicio_vista"
@@ -63,15 +58,15 @@
   <TableLayout
       android:id="@+id/tbVisit"
       android:layout_width="match_parent"
-      android:layout_height="match_parent">
+      android:layout_height="300dp">
 
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"/>
 
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"/>
 
     <TableRow
         android:layout_width="match_parent"
@@ -81,7 +76,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
   </TableLayout>
-
 </LinearLayout>
 
 

@@ -9,10 +9,7 @@
     android:orientation="vertical">
 
     <TextView
-        android:text="Go sale"
-        android:textSize="15sp"
-        style="@style/text_inicio_vista"
-        android:textAlignment="viewEnd"/>
+        style="@style/text_inicio_vista" />
     <TextView
         android:drawableStart="@drawable/vector_before"
         style="@style/text_inicio_vista"

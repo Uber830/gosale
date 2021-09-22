@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.widget.ImageView
 import android.widget.Toast
 
-
 class ClientesInformacionActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -8,11 +8,6 @@
     android:orientation="vertical" >
 
     <TextView
-        android:text="Go sale"
-        android:textSize="15sp"
-        style="@style/text_inicio_vista"
-        android:gravity="end"/>
-    <TextView
         android:drawableStart="@drawable/vector_before"
         style="@style/text_inicio_vista"
         android:text="Clientes"
@@ -131,7 +126,7 @@
     <fragment
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
-        android:layout_margin="12dp"
+        android:layout_margin="5dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>

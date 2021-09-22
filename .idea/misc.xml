@@ -51,6 +51,7 @@
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_estadisticas2.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_estadisticas3.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_estadisticas4.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_estados_de_cuenta.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_loguin.xml" value="0.25" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_ordenes.xml" value="0.19010416666666666" />
@@ -66,14 +67,18 @@
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_recaudos6.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_visita.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_visita1.xml" value="0.25" />
-        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_visita2.xml" value="0.33" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_visita2.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_visita_agenda.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_visitafinal.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_vista.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/row_client.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/row_client_recaudo.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/layout/row_client_visit.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

@@ -3,13 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/ic_launcher_background"
     android:orientation="vertical"
-    tools:context=".Activity_vista">
+    tools:context=".VisitafinalActivity">
 
     <TextView
         style="@style/text_inicio_vista"
-        android:text="Go sale"
         android:textAlignment="viewEnd"
         android:textSize="15sp" />
 
@@ -17,14 +15,13 @@
         style="@style/text_inicio_vista"
         android:layout_width="413dp"
         android:drawableStart="@drawable/vector_before"
-        android:text="Ubicacion de Visita"
+        android:text="Visita"
         android:textAlignment="center"
         android:textSize="34sp" />
 
     <fragment
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
-        android:layout_margin="12dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
