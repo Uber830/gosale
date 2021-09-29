@@ -12,8 +12,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        MyToolbar().show(this, "Estados de Cuenta", true)
-
         //variables
         val producto = findViewById<Button>(R.id.btnProducto)
         val cliente = findViewById<Button>(R.id.btnCliente)

@@ -22,7 +22,7 @@ class RecaudosActivity : AppCompatActivity() {
         tbRecaudo=findViewById(R.id.tbRecaudo)
         tbRecaudo?.removeAllViews()
 
-        //MyToolbar().show(this, "Recaudos", true)
+        MyToolbar().show(this, "Recaudos", true)
         //val recaudo = findViewById<Button>(R.id.btnRecaudo)
 
         //recaudo.setOnClickListener(){
