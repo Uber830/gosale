@@ -1,70 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical"
-    android:background="@color/white">
+    tools:context=".MainActivity">
 
-    <include layout="@layout/action_bar_toolbar" />
+    <ImageView
+        android:id="@+id/Viewlogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13"
+        app:srcCompat="@drawable/loggosale" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="15dp">
+    <Button
+        android:id="@+id/btnProducto"
+        style="@style/CátalogoButtonRoundStyle"
+        app:layout_constraintBottom_toTopOf="@+id/btnOrden"
+        app:layout_constraintEnd_toStartOf="@id/btnCliente"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Viewlogo" />
 
-        <ImageView
-            android:id="@+id/Viewlogo"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
-            android:layout_marginLeft="150dp"
-            android:layout_marginRight="40dp"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/loggosale" />
+    <Button
+        android:id="@+id/btnCliente"
+        style="@style/ClienteButtonRoundStyle"
+        app:layout_constraintBottom_toTopOf="@+id/btnRecaudo"
+        app:layout_constraintEnd_toStartOf="@id/btnVisita"
+        app:layout_constraintStart_toEndOf="@+id/btnProducto"
+        app:layout_constraintTop_toBottomOf="@+id/Viewlogo" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="80dp">
+    <Button
+        android:id="@+id/btnVisita"
+        style="@style/VisitaButtonRoundStyle"
+        app:layout_constraintBottom_toTopOf="@+id/btnDevolicion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnCliente"
+        app:layout_constraintTop_toBottomOf="@+id/Viewlogo" />
 
-            <Button
-                android:id="@+id/btnProducto"
-               style="@style/CátalogoButtonRoundStyle"/>
+    <Button
+        android:id="@+id/btnOrden"
+        style="@style/OrdenButtonRoundStyle"
+        app:layout_constraintBottom_toTopOf="@+id/btnEstadistica"
+        app:layout_constraintEnd_toStartOf="@+id/btnRecaudo"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnProducto" />
 
-            <Button
-                android:id="@+id/btnCliente"
-                style="@style/ClienteButtonRoundStyle"/>
+    <Button
+        android:id="@+id/btnRecaudo"
+        style="@style/RecaudoButtonRoundStyle"
+        app:layout_constraintBottom_toTopOf="@id/btnEstadistica"
+        app:layout_constraintEnd_toStartOf="@+id/btnDevolicion"
+        app:layout_constraintStart_toEndOf="@+id/btnOrden"
+        app:layout_constraintTop_toBottomOf="@+id/btnCliente" />
 
-            <Button
-                android:id="@+id/btnVisita"
-                style="@style/VisitaButtonRoundStyle"/>
-        </LinearLayout>
-        <LinearLayout
-           style="@style/LinearLayautButtonStyle">
+    <Button
+        android:id="@+id/btnDevolicion"
+        style="@style/DevolucionButtonRoundStyle"
+        app:layout_constraintBottom_toTopOf="@id/btnEstadistica"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnRecaudo"
+        app:layout_constraintTop_toBottomOf="@+id/btnVisita" />
 
-            <Button
-                android:id="@+id/btnOrden"
-                style="@style/OrdenButtonRoundStyle"/>
+    <Button
+        android:id="@+id/btnEstadistica"
+        style="@style/EstadisticaButtonStyle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRecaudo"/>
 
-            <Button
-                android:id="@+id/btnRecaudo"
-               style="@style/RecaudoButtonRoundStyle"/>
-
-            <Button
-                android:id="@+id/btnDevolicion"
-                style="@style/DevolucionButtonRoundStyle"/>
-        </LinearLayout>
-        <LinearLayout
-            style="@style/LinearLayautButtonStyle">
-
-            <Button
-                android:id="@+id/btnEstadistica"
-              style="@style/EstadisticaButtonStyle"/>
-        </LinearLayout>
-    </LinearLayout>
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

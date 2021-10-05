@@ -9,8 +9,6 @@
     android:orientation="vertical">
 
     <TextView
-        style="@style/text_inicio_vista" />
-    <TextView
         android:drawableStart="@drawable/vector_before"
         style="@style/text_inicio_vista"
         android:text="Clientes"
@@ -21,9 +19,7 @@
     <SearchView
         android:id="@+id/searchBuscar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/Gray"
-        android:padding="2dp">
+        android:layout_height="wrap_content">
 
     </SearchView>
 

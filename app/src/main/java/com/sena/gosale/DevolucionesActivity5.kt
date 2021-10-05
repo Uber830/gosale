@@ -10,7 +10,7 @@ class DevolucionesActivity5 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_devoluciones5)
 
-        MyToolbar().show(this, "Devoluciones", true)
+       // MyToolbar().show(this, "Devoluciones", true)
         val devolucion = findViewById<Button>(R.id.btnEnviar)
 
         devolucion.setOnClickListener() {

@@ -4,35 +4,42 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
+import android.widget.ImageView
 import android.widget.Toast
+import com.sena.gosale.databinding.ActivityLoguinBinding
 
 class loguinActivity : AppCompatActivity() {
+
+     lateinit var loguin: ActivityLoguinBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
-        //codigo del splashcreen
-        setTheme(R.style.Theme_Gosale)
+             //splashcreen
+       // setTheme(R.style.Theme_Gosale)
 
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_loguin)
+       loguin = ActivityLoguinBinding.inflate(layoutInflater)
+        setContentView(loguin.root)
 
-        //variables
-        val email = findViewById<EditText>(R.id.hint_Email)
-        val password = findViewById<EditText>(R.id.hint_Password)
-        val sendButton = findViewById<Button>(R.id.button_Ingresar)
-        val recuperar = findViewById<TextView>(R.id.text_RecuperarContraseña)
+        loguin.buttonIngresar.setOnClickListener{ ingresar() }
 
-        sendButton.setOnClickListener {
+       /* boton.setOnClickListener {
             /*concatena las salidas de informacion*/
-            val message = "Email: ${email.text}, Contraseña: ${password.text}"
-            val info = recuperar.text
+           // val message = "Email: ${email.text}, Contraseña: ${password.text}"
+           // val info = recuperar.text
 
             /* llama la activity de los productos*/
             val ventanaLogin = Intent(this, MainActivity::class.java)
             startActivity(ventanaLogin)
 
             /*Muestra los valores ingresados por pantalla, en la parte inferior*/
-            Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
-        }
+            Toast.makeText(this, "Ingreso", Toast.LENGTH_SHORT).show()
+        }  */
+    }
+
+    private fun ingresar() {
+        val ingreso = Intent(this, MainActivity::class.java)
+        startActivity(ingreso)
+
+        Toast.makeText(this, "Ingresando!", Toast.LENGTH_SHORT).show()
     }
 }

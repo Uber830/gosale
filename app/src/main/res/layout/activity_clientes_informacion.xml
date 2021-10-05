@@ -1,25 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ClientesInformacionActivity"
-    android:background="@color/white"
     android:orientation="vertical" >
 
     <TextView
+        android:id="@+id/txtInicioLayout"
         android:drawableStart="@drawable/vector_before"
         style="@style/text_inicio_vista"
         android:text="Clientes"
         android:textAlignment="center"
-        android:textSize="34sp" />
+        android:textSize="34sp"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
     <RelativeLayout
+        android:id="@+id/txtText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
        android:layout_margin="12dp"
-        android:background="@color/white">
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtInicioLayout"
+        app:layout_constraintBottom_toTopOf="@+id/txtPhoneMovilLayout">
 
         <TextView
             android:layout_width="wrap_content"
@@ -55,95 +65,164 @@
             android:textSize="20dp"
             android:background="@color/white"/>
     </RelativeLayout>
-    <RelativeLayout
-        android:layout_width="match_parent"
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtPhoneMovilLayout"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-       android:layout_marginStart="12dp"
-        android:layout_marginEnd="12dp"
-        android:background="@color/white">
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:startIconDrawable="@drawable/vector_smartphone"
+        android:hint="Number"
+        android:padding="0dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:helperText="Requerido*"
+        app:helperTextTextColor="@color/red"
+        app:prefixText="+57"
+        app:prefixTextColor="@color/purple_700"
+        app:counterEnabled="true"
+        app:counterMaxLength="10"
+        app:endIconMode="custom"
+        app:errorIconDrawable="@drawable/vector_error"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtText"
+        app:layout_constraintBottom_toTopOf="@+id/txtPhonFijoLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.15">
 
-        <EditText
-            android:drawablePadding="12dp"
-            android:id="@+id/TextPhoneMovil"
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtPhoneMovil"
+            android:maxLength="11"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:backgroundTint="@color/black"
-            android:textColor="@color/black"
-            android:drawableStart="@drawable/vector_smartphone"
-            android:ems="10"
-            android:hint="@string/TextPhoneMovil"
-            android:inputType="phone"
-            android:textSize="18sp" />
+            android:layout_height="50dp"
+            android:inputType="number|textAutoComplete" />
+    </com.google.android.material.textfield.TextInputLayout>
 
-        <EditText
-            android:id="@+id/TextPhoneFijo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/TextPhoneMovil"
-            android:layout_alignParentStart="true"
-            android:backgroundTint="@color/black"
-            android:textColor="@color/black"
-            android:drawableStart="@drawable/vector_phone"
-            android:drawablePadding="12dp"
-            android:ems="10"
-            android:hint="7654123"
-            android:inputType="phone"
-            android:textSize="18sp" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtPhonFijoLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:startIconDrawable="@drawable/vector_phone"
+        android:hint="fixed Phone"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:helperText="Requerido*"
+        app:helperTextTextColor="@color/red"
+        app:counterEnabled="true"
+        android:padding="0dp"
+        app:counterMaxLength="7"
+        app:endIconMode="clear_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPhoneMovilLayout"
+        app:layout_constraintBottom_toTopOf="@+id/txtPostalLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.15">
 
-        <EditText
-            android:id="@+id/TextPostalAddress"
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtPhoneFijo"
+            android:maxLength="8"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/TextPhoneFijo"
-            android:layout_marginTop="0dp"
-            android:backgroundTint="@color/black"
-            android:textColor="@color/black"
-            android:drawableStart="@drawable/vector_house"
-            android:drawablePadding="12dp"
-            android:ems="12"
-            android:hint="Calle 00 #00-01"
-            android:inputType="textPostalAddress"
-            android:textSize="18sp" />
+            android:layout_height="50dp"
+            android:inputType="textAutoComplete|number" />
+    </com.google.android.material.textfield.TextInputLayout>
 
-        <EditText
-            android:id="@+id/textCity"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/TextPostalAddress"
-            android:layout_alignParentStart="true"
-            android:backgroundTint="@color/black"
-            android:textColor="@color/black"
-            android:drawableStart="@drawable/vector_person_circle"
-            android:drawablePadding="12dp"
-            android:hint="Bogotá"
-            android:textSize="18sp" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtPostalLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:startIconDrawable="@drawable/vector_house"
+        android:hint="Direction"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:helperText="Requerido*"
+        app:helperTextTextColor="@color/red"
+        app:counterEnabled="true"
+        android:padding="0dp"
+        app:counterMaxLength="25"
+        app:endIconMode="clear_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPhonFijoLayout"
+        app:layout_constraintBottom_toTopOf="@+id/txtCityLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.15">
 
-        <EditText
-            android:drawablePadding="12dp"
-            android:id="@+id/TextEmailAddress"
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtPostal"
+            android:maxLength="26"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:backgroundTint="@color/black"
-            android:textColor="@color/black"
-            android:drawableStart="@drawable/vector_email"
-            android:layout_below="@id/textCity"
-            android:ems="25"
-            android:hint="Correoelectr@email.com"
-            android:textSize="18sp"
-            android:inputType="textEmailAddress" />
+            android:layout_height="50dp"
+            android:inputType="textPostalAddress|textAutoComplete" />
+    </com.google.android.material.textfield.TextInputLayout>
 
-        <Space
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtCityLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:startIconDrawable="@drawable/vector_person_circle"
+        android:hint="City"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:helperText="Requerido*"
+        app:helperTextTextColor="@color/red"
+        app:counterEnabled="true"
+        app:counterMaxLength="25"
+        android:padding="0dp"
+        app:endIconMode="clear_text"
+        app:layout_constraintTop_toBottomOf="@+id/txtPostalLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/txtEmailLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.15">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtCity"
+            android:maxLength="26"
             android:layout_width="match_parent"
-            android:layout_height="50dp" />
-    </RelativeLayout>
+            android:layout_height="50dp"
+            android:inputType="text|textAutoComplete"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtEmailLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:startIconDrawable="@drawable/vector_email"
+        android:hint="Email"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:helperText="Requerido*"
+        app:helperTextTextColor="@color/red"
+        app:counterEnabled="true"
+        app:counterMaxLength="25"
+        android:padding="0dp"
+        app:endIconMode="clear_text"
+        android:layout_marginBottom="140dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCityLayout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.15" >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtEmail"
+            android:maxLength="26"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textPersonName|textEmailSubject|textAutoComplete"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="341dp"
         android:layout_height="65dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginStart="35dp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmailLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         android:background="@drawable/button_rounded">
 
         <ImageView
@@ -172,4 +251,4 @@
             app:srcCompat="@drawable/vector_shopping_cart" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

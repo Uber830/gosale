@@ -10,7 +10,7 @@ class RecaudosActivity5 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recaudos5)
 
-        MyToolbar().show(this, "Recaudos", true)
+       // MyToolbar().show(this, "Recaudos", true)
         val recaudo = findViewById<Button>(R.id.btnEnviar)
 
         recaudo.setOnClickListener() {

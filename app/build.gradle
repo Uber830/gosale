@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    compileSdk 30
+    compileSdk 31
 
     defaultConfig {
         applicationId "com.sena.gosale"
@@ -29,6 +29,9 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -40,9 +43,21 @@ dependencies {
     // Circle Indicator (To fix the xml preview "Missing classes" error)
     implementation 'org.imaginativeworld.whynotimagecarousel:whynotimagecarousel:2.0.4'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
-    // listado de objetos.
+    //  listado de objetos.
     implementation 'androidx.recyclerview:recyclerview:1.2.0'
-    //dependias de google
+
+    implementation "com.squareup.picasso:picasso:2.71828"
+
+    implementation "com.squareup.retrofit2:retrofit:2.9.0"
+    implementation "com.squareup.retrofit2:converter-gson:2.9.0"
+
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.6'
+
+    //---- Material Dezing
+    implementation 'com.google.android.material:material:1.5.0-alpha03'
+    //---- Fragment
+
+    //---- Dependencias de google
     implementation 'com.google.android.gms:play-services-maps:17.0.0'
     implementation 'com.android.volley:volley:1.2.0'
     testImplementation 'junit:junit:4.+'

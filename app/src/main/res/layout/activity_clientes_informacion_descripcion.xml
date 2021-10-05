@@ -62,6 +62,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
+            android:padding="12dp"
             android:backgroundTint="@color/black"
             android:drawableStart="@drawable/vector_smartphone"
             android:ems="10"

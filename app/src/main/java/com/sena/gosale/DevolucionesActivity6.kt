@@ -8,6 +8,6 @@ class DevolucionesActivity6 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_devoluciones6)
 
-        MyToolbar().show(this, "Devoluciones", true)
+       // MyToolbar().show(this, "Devoluciones", true)
     }
 }

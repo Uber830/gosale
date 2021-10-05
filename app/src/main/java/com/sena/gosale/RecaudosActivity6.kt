@@ -8,6 +8,6 @@ class RecaudosActivity6 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recaudos6)
 
-        MyToolbar().show(this, "Recaudos", true)
+       // MyToolbar().show(this, "Recaudos", true)
     }
 }

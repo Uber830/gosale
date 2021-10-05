@@ -9,9 +9,6 @@
     tools:context=".ProductsLineActivity">
 
     <TextView
-        style="@style/text_inicio_vista" />
-
-    <TextView
         style="@style/text_inicio_vista"
         android:drawableStart="@drawable/vector_before"
         android:text="Catálogo"
@@ -82,9 +79,7 @@
 
     <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp">
-
+        android:layout_height="wrap_content">
         <LinearLayout
             android:id="@+id/grupo_one"
             android:layout_width="wrap_content"
@@ -92,7 +87,7 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:orientation="vertical">
@@ -139,7 +134,7 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="10dp"
             android:orientation="vertical">
@@ -186,7 +181,7 @@
             android:layout_below="@id/grupo_one"
             android:layout_alignParentStart="true"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:orientation="vertical">
@@ -232,7 +227,7 @@
             android:layout_below="@id/grupo_two"
             android:layout_alignParentEnd="true"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="10dp"
             android:orientation="vertical">
