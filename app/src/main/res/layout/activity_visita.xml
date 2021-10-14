@@ -7,9 +7,6 @@
     tools:context=".VisitaActivity">
 
   <TextView
-      style="@style/text_inicio_vista" />
-
-  <TextView
       style="@style/text_inicio_vista"
       android:drawableStart="@drawable/vector_before"
       android:text="Visitas"
@@ -55,27 +52,132 @@
       android:textColorHighlight="@color/Gray"
       android:textColorHint="@color/Gray" />
 
-  <TableLayout
-      android:id="@+id/tbVisit"
-      android:layout_width="match_parent"
-      android:layout_height="300dp">
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:layout_marginStart="5dp"
+         android:layout_marginEnd="5dp">
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+         <TextView
+             android:id="@+id/txtUser"
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:textSize="20sp"
+             android:layout_marginStart="10dp"
+             android:background="@color/silver"
+             android:drawableStart="@drawable/vector_add"
+             android:padding="10dp"
+             android:layout_marginEnd="10dp"
+             android:layout_marginBottom="15dp"
+             android:text="Pedro Alvares Rojas"/>
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+         <TextView
+             android:id="@+id/txtUser2"
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:textSize="20sp"
+             android:layout_marginBottom="15dp"
+             android:layout_marginStart="10dp"
+             android:layout_marginEnd="10dp"
+             android:background="@color/silver"
+             android:drawableStart="@drawable/vector_add"
+             android:padding="10dp"
+             android:text="Pedro Gozales Alvarado"/>
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-  </TableLayout>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:textSize="20sp"
+             android:layout_marginBottom="15dp"
+             android:layout_marginStart="10dp"
+             android:layout_marginEnd="10dp"
+             android:background="@color/silver"
+             android:drawableStart="@drawable/vector_add"
+             android:padding="10dp"
+             android:text="Pedro Pascasio Martinez"/>
+
+         <TextView
+             android:id="@+id/txtUser3"
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:textSize="20sp"
+             android:layout_marginBottom="15dp"
+             android:layout_marginStart="10dp"
+             android:layout_marginEnd="10dp"
+             android:background="@color/silver"
+             android:drawableStart="@drawable/vector_add"
+             android:padding="10dp"
+             android:text="Andrea Catalina Rojas"/>
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:textSize="20sp"
+             android:layout_marginBottom="15dp"
+             android:layout_marginStart="10dp"
+             android:layout_marginEnd="10dp"
+             android:background="@color/silver"
+             android:drawableStart="@drawable/vector_add"
+             android:padding="10dp"
+             android:text="Andrea Catalina Sanchez"/>
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:textSize="20sp"
+             android:layout_marginBottom="15dp"
+             android:layout_marginStart="10dp"
+             android:layout_marginEnd="10dp"
+             android:background="@color/silver"
+             android:drawableStart="@drawable/vector_add"
+             android:padding="10dp"
+             android:text="Pedro Alvares Rojas"/>
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:textSize="20sp"
+             android:layout_marginBottom="15dp"
+             android:layout_marginStart="10dp"
+             android:layout_marginEnd="10dp"
+             android:background="@color/silver"
+             android:drawableStart="@drawable/vector_add"
+             android:padding="10dp"
+             android:text="Carlos Andres Sa"/>
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:textSize="20sp"
+             android:layout_marginBottom="15dp"
+             android:layout_marginStart="10dp"
+             android:layout_marginEnd="10dp"
+             android:background="@color/silver"
+             android:drawableStart="@drawable/vector_add"
+             android:padding="10dp"
+             android:text="Pedro Alvares Rojas"/>
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:textSize="20sp"
+             android:layout_marginBottom="15dp"
+             android:layout_marginStart="10dp"
+             android:layout_marginEnd="10dp"
+             android:background="@color/silver"
+             android:drawableStart="@drawable/vector_add"
+             android:padding="10dp"
+             android:text="Pedro Alvares Rojas"/>
+
+     </LinearLayout>
+
+
+ </ScrollView>
 </LinearLayout>
 
 

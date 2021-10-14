@@ -47,7 +47,8 @@ dependencies {
     implementation 'org.imaginativeworld.whynotimagecarousel:whynotimagecarousel:2.0.4'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
     //  listado de objetos.
-    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    // RecyclerView
+    implementation 'androidx.recyclerview:recyclerview:1.3.0-alpha01'
 
     implementation "com.squareup.picasso:picasso:2.71828"
 

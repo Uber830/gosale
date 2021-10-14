@@ -16,9 +16,9 @@
         android:textSize="34sp" />
 
     <TextView
+        android:id="@+id/txtNombProducto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BROCHA IMPERIAL"
         android:textAlignment="center"
         android:textColor="@color/purple_500"
         android:textSize="20sp" />
@@ -65,5 +65,11 @@
             android:text="Resistencia: Gasolina vehicular." />
 
     </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecyClerViewLis"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.recyclerview.widget.RecyclerView>
 
 </LinearLayout>
