@@ -81,10 +81,11 @@
             android:exported="true" />
         <activity
             android:name=".ClientesActivity"
-            android:exported="true" /> <!-- Producto -->
+            android:exported="true" />
+        <!-- Producto -->
         <activity
             android:name=".productsAnatomyActivity"
-            android:exported="true" />
+            android:exported="true"/>
         <activity
             android:name=".ProductsLineActivity"
             android:exported="true" />
@@ -94,14 +95,16 @@
         <activity
             android:name=".loguinActivity"
             android:exported="true"
-            android:theme="@style/TextInputEditText">
-           <!-- android:theme="@style/SplashTheme"  -->
+            android:theme="@style/TextInputEditText" >
+            <!-- android:theme="@style/SplashTheme"  -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> <!-- Principal -->
+
+        </activity>
+        <!-- Principal -->
         <activity
             android:name=".MainActivity"
             android:exported="true" /> <!-- Estadisticas -->

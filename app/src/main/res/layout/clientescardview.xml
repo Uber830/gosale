@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardView"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="@color/silver"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="8dp"
+    app:contentPadding="4dp"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/consLayout"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/itNombres"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/itRSocial"/>
+
+        <TextView
+            android:id="@+id/itNDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Nombre Cliente"
+            android:textSize="14sp"
+            android:layout_marginTop="30dp"
+           android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <TextView
+            android:id="@+id/itRSocial"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/itNombres"/>
+
+        <TextView
+            android:id="@+id/itRDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Razon Social"
+            android:textSize="14sp"
+            android:textColor="@color/colorMainGreen"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="40dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

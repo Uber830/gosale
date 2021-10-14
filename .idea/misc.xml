@@ -15,7 +15,7 @@
         <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/drawable/round_warning.xml" value="0.1921875" />
         <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/drawable/splashcreen.xml" value="0.1921875" />
         <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/action_bar_toolbar.xml" value="0.171875" />
-        <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes.xml" value="0.171875" />
+        <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes.xml" value="0.2" />
         <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes_informacion.xml" value="0.22" />
         <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes_informacion_descripcion.xml" value="0.25" />
         <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_clientes_localizacion.xml" value="0.171875" />
@@ -23,9 +23,9 @@
         <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_loguin.xml" value="0.25" />
         <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_ordenes.xml" value="0.22" />
-        <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_producto.xml" value="0.21" />
-        <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_products_anatomy.xml" value="0.171875" />
-        <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_products_line.xml" value="0.22" />
+        <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_producto.xml" value="0.22" />
+        <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_products_anatomy.xml" value="0.33" />
+        <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_products_line.xml" value="0.25" />
         <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_recaudos.xml" value="0.171875" />
         <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_recaudos2.xml" value="0.25" />
         <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_recaudos3.xml" value="0.33" />
@@ -33,8 +33,10 @@
         <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_recaudos5.xml" value="0.21" />
         <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_recaudos6.xml" value="0.25" />
         <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/activity_visita_agenda.xml" value="0.171875" />
+        <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/card.xml" value="0.171875" />
+        <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/clientescardview.xml" value="0.25" />
         <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/item_productos.xml" value="0.171875" />
-        <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/item_products.xml" value="0.33" />
+        <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/item_products.xml" value="0.25" />
         <entry key="..\:/Users/ALEJANDRO CARDOSO/AndroidStudioProjects/gosale/app/src/main/res/layout/new_action_bar_toolbar.xml" value="0.171875" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/gosale/app/src/main/res/drawable/button_round.xml" value="0.2203125" />

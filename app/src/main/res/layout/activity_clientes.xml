@@ -1,62 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ClientesActivity"
-    android:background="@color/white"
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/txtHeader"
         android:drawableStart="@drawable/vector_before"
         style="@style/text_inicio_vista"
         android:text="Clientes"
         android:textAlignment="center"
-        android:textSize="34sp" />
-    //elemento de busqueda
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
-    <SearchView
-        android:id="@+id/searchBuscar"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecyclerView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtHeader">
 
-    </SearchView>
+    </androidx.recyclerview.widget.RecyclerView>
 
-    //agregar lista de elementos
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:ignore="SpeakableTextPresentCheck">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TableLayout
-                android:id="@+id/tbClient"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                tools:layout_editor_absoluteY="787dp">
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
-            </TableLayout>
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </ScrollView>
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

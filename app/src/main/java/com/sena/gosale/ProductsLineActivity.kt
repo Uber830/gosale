@@ -11,7 +11,7 @@ class ProductsLineActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_products_line)
 
-        val imagenBrocha1 = findViewById<ImageView>(R.id.imagenBrocha1)
+       /* val imagenBrocha1 = findViewById<ImageView>(R.id.imagenBrocha1)
         val imagenBrocha2 = findViewById<ImageView>(R.id.imagenBrocha2)
 
         imagenBrocha1.setOnClickListener{
@@ -25,6 +25,6 @@ class ProductsLineActivity : AppCompatActivity() {
             startActivity(ventanaFilaBrocha2)
 
             Toast.makeText(applicationContext, "Brocha 2", Toast.LENGTH_SHORT).show()
-        }
+        }   */
     }
 }
